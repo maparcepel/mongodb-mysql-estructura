@@ -32,7 +32,7 @@ customer1 = {
     },
     "phone": "666333222",
     "email": "maparcepel@gmail.com",
-    "registration_date": "2021-05-02T22:00:00.000Z",
+    "registration_date": new Date("2021-05-02T22:00:00.000Z"),
     "recommended_by": 1
 };
 
@@ -51,7 +51,7 @@ customer2 = {
     },
     "phone": "698741256",
     "email": "maria@gmail.com",
-    "registration_date": "2020-06-06T22:00:00.000Z",
+    "registration_date": new Date("2020-06-06T22:00:00.000Z"),
     "recommended_by": null
 };
 

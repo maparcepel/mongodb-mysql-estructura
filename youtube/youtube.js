@@ -21,7 +21,7 @@ channel1 = {
     "channel_id": 0,
     "name": "Canal para reír",
     "description": "Fails",
-    "creation_date": "2019-05-18T16:00:00Z",
+    "creation_date": new Date("2019-05-18T16:00:00Z"),
     "user_id": 0
 };
 
@@ -30,7 +30,7 @@ channel2 = {
     "channel_id": 1,
     "name": "Viajes",
     "description": "Consejos para viajeros",
-    "creation_date": "2019-08-18T16:00:00Z",
+    "creation_date": new Date("2019-08-18T16:00:00Z"),
     "user_id": 1
 };
 
@@ -39,14 +39,14 @@ print("***********creating comments*********");
 comment1 = {
     "comment_id": 0,
     "text": "Jaja qué risa. Muy bueno!!",
-    "date_time": "2021-05-18T16:00:00Z",
+    "date_time": new Date("2021-05-18T16:00:00Z"),
     "likes": [{
         "user_id": 0,
-        "date_time": "2021-05-19T16:00:00Z"
+        "date_time": new Date("2021-05-19T16:00:00Z")
     }],
     "dislikes": [{
         "user_id": 2,
-        "date_time": "2021-05-21T16:00:00Z"
+        "date_time": new Date("2021-05-21T16:00:00Z")
     }],
     "video_id": 1,
     "user_id": 1
@@ -55,14 +55,14 @@ comment1 = {
 comment2 = {
     "comment_id": 1,
     "text": "UPsss jaja!!",
-    "date_time": "2021-05-23T16:00:00Z",
+    "date_time": new Date("2021-05-23T16:00:00Z"),
     "likes": [{
         "user_id": 1,
-        "date_time": "2021-05-19T16:00:00Z"
+        "date_time": new Date("2021-05-19T16:00:00Z")
     }],
     "dislikes": [{
         "user_id": 2,
-        "date_time": "2021-05-21T16:00:00Z"
+        "date_time": new Date("2021-05-21T16:00:00Z")
     }],
     "video_id": 1,
     "user_id": 0
@@ -74,7 +74,7 @@ print("***********creating playlist*********");
 playlist1 = {
     "playlist_id": 0,
     "name": "Mis favoritos",
-    "creation_date": "20121-05-18T16:00:00Z",
+    "creation_date": new Date("20121-05-18T16:00:00Z"),
     "status": "privada",
     "user_id": 0,
     "videos": [{
@@ -87,7 +87,7 @@ playlist1 = {
 playlist2 = {
     "playlist_id": 1,
     "name": "Rusia",
-    "creation_date": "20121-07-22T16:00:00Z",
+    "creation_date": new Date("20121-07-22T16:00:00Z"),
     "status": "pública",
     "user_id": 1,
     "videos": [{
@@ -103,7 +103,7 @@ user1 = {
     "email": "maparcepel@gmail.com",
     "password": "1234",
     "name": "marcel",
-    "birthday": "1970-10-05T16:00:00Z",
+    "birthday": new Date("1970-10-05T16:00:00Z"),
     "gender": "male",
     "country": "España",
     "zip": "08731",
@@ -119,7 +119,7 @@ user2 = {
     "email": "maria@gmail.com",
     "password": "4569",
     "name": "maria",
-    "birthday": "1999-12-05T16:00:00Z",
+    "birthday": new Date("1999-12-05T16:00:00Z"),
     "gender": "female",
     "country": "España",
     "zip": "08800",
@@ -133,7 +133,7 @@ user3 = {
     "email": "juan@gmail.com",
     "password": "78563",
     "name": "juan",
-    "birthday": "2002-10-05T16:00:00Z",
+    "birthday": new Date("2002-10-05T16:00:00Z"),
     "gender": "male",
     "country": "España",
     "zip": "08001",
@@ -160,14 +160,14 @@ video1 = {
     "views": 222,
     "likes": [{
         "user_id": 0,
-        "date_time": "2017-10-08T00:22:00.000Z"
+        "date_time": new Date("2017-10-08T00:22:00.000Z")
     }, {
         "user_id": 1,
         "date_time": "2017-11-08T00:22:00.000Z"
     }],
     "dislikes": [{
         "user_id": 2,
-        "date_time": "2017-12-08T00:22:00.000Z"
+        "date_time": new Date("2017-12-08T00:22:00.000Z")
     }],
     "status": "public",
     "tags": [{
@@ -178,7 +178,7 @@ video1 = {
         "tag_name": "Rusia"
     }],
     "user_id": 1,
-    "publication_date_time": "2017-10-08T00:22:00.000Z"
+    "publication_date_time": new Date("2017-10-08T00:22:00.000Z")
 };
 
 video2 = {
@@ -196,11 +196,11 @@ video2 = {
     "views": 2346,
     "likes": [{
         "user_id": 1,
-        "date_time": "2020-12-08T00:23:00.000Z"
+        "date_time": new Date("2020-12-08T00:23:00.000Z")
     }],
     "dislikes": [{
         "user_id": 2,
-        "date_time": "2020-12-09T00:09:00.000Z"
+        "date_time": new Date("2020-12-09T00:09:00.000Z")
     }],
     "status": "public",
     "tags": [{
@@ -211,7 +211,7 @@ video2 = {
         "tag_name": "2020"
     }],
     "user_id": 0,
-    "publication_date_time": "2020-12-08T00:22:00.000Z"
+    "publication_date_time": new Date("2020-12-08T00:22:00.000Z")
 };
 
 

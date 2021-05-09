@@ -61,9 +61,9 @@ playlist1 = {
     "playlist_id": 0,
     "title": "mis favoritos 2020",
     "tracks_number": 2,
-    "creation_date": "2020-05-18T16:00:00Z",
+    "creation_date": new Date("2020-05-18T16:00:00Z"),
     "status": ["deleted", {
-        "date": "2021-05-18T16:00:00Z"
+        "date": new Date("2021-05-18T16:00:00Z")
     }],
     "user_id": 0,
     "shared": [{
@@ -72,11 +72,11 @@ playlist1 = {
     "tracks": [{
         "track_id": 0,
         "user_id": 0,
-        "date": "2020-05-19T16:00:00Z"
+        "date": new Date("2020-05-19T16:00:00Z")
     }, {
         "track_id": 1,
         "user_id": 1,
-        "date": "2020-05-20T16:00:00Z"
+        "date": new Date("2020-05-20T16:00:00Z")
     }]
 };
 
@@ -139,14 +139,14 @@ user1 = {
     "email": "jkgkjk@sdd.com",
     "password": "1234",
     "name": "Marcel Molina",
-    "birthday": "1970-10-18T16:00:00Z",
+    "birthday": new Date("1970-10-18T16:00:00Z"),
     "gender": "male",
     "country": "España",
     "zip": "08731",
     "user_type": "premium",
     "subscription": {
-        "subscription_date": "2020-10-18T16:00:00Z",
-        "renew_date": "2021-10-18T16:00:00Z",
+        "subscription_date": new Date("2020-10-18T16:00:00Z"),
+        "renew_date": new Date("2021-10-18T16:00:00Z"),
         "payment_type": {
             "credit_card": {
                 "number": "1236547896325",
@@ -156,11 +156,11 @@ user1 = {
             }
         },
         "payments": [{
-            "date": "2020-01-18T16:00:00Z",
+            "date": new Date("2020-01-18T16:00:00Z"),
             "order_number": "12345",
             "total": 30.99
         }, {
-            "date": "2020-04-18T16:00:00Z",
+            "date": new Date("2020-04-18T16:00:00Z"),
             "order_number": "12346",
             "total": 30.99
         }]
@@ -185,7 +185,7 @@ user2 = {
     "email": "thth@sdhthtd.com",
     "password": "3456",
     "name": "María Soto",
-    "birthday": "1980-10-18T16:00:00Z",
+    "birthday": new Date("1980-10-18T16:00:00Z"),
     "gender": "female",
     "country": "España",
     "zip": "08800",

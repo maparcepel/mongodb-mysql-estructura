@@ -133,7 +133,7 @@ print("***********creating orders*********");
 
 order1 = {
     "order_id": 0,
-    "date_time": "2016-05-18T16:00:00Z",
+    "date_time": new Date("2016-05-18T16:00:00Z"),
     "order_type": "delivery",
     "items": [{
         "product_id": 0,
@@ -147,13 +147,13 @@ order1 = {
     },
     "store_id": 0,
     "delivery_employee_id": 0,
-    "delivery_date_time ": "2016-05-18T17:00:00Z",
+    "delivery_date_time ": new Date("2016-05-18T17:00:00Z"),
     "customer_id": 0
 };
 
 order2 = {
     "order_id": 1,
-    "date_time": "2016-06-22T12:00:00Z",
+    "date_time": new Date("2016-06-22T12:00:00Z"),
     "order_type": "delivery",
     "items": [{
         "product_id": 2,
@@ -167,7 +167,7 @@ order2 = {
     },
     "store_id": 2,
     "delivery_employee_id": 3,
-    "delivery_date_time ": "2016-06-22T12:30:00Z",
+    "delivery_date_time ": new Date("2016-06-22T12:30:00Z"),
     "customer_id": 2
 };
 
